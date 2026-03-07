@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  border: none;
+  font-family: 'Press Start 2P', cursive;
+}
+
+body {
+  background-color: #121212; /* AQUI você muda a cor do fundo */
+  color: white; /* cor do texto para combinar com fundo escuro */
+  font-family: Arial, sans-serif;
+}
