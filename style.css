@@ -7,7 +7,7 @@
   width: 90%;
   max-width: 700px;
   /* Mudei de 100px auto para 50px auto 20px - (Topo, Lados, Baixo) */
-  margin: 120px auto 30px; /* aumenta espaço no topo */
+  margin: 40px auto 30px; /* aumenta espaço no topo */
 }
 
 .card {
