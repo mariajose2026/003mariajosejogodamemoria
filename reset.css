@@ -1,15 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap'); /* importa a fonte estilo retrô */
+
 *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style: none;
-  border: none;
-  font-family: 'Press Start 2P', cursive;
+  margin: 0; /* remove margens padrão do navegador */
+  padding: 0; /* remove espaçamento interno padrão */
+  box-sizing: border-box; /* faz largura e altura incluírem borda e padding */
+  list-style: none; /* remove marcadores de listas */
+  border: none; /* remove bordas padrão */
+  font-family: 'Press Start 2P', cursive; /* define a fonte retrô para todo o site */
+}
+
+html, body {
+  height: 100%; /* faz a página ocupar toda altura da tela */
+  overflow: hidden; /* REMOVE o scroll vertical e horizontal */
 }
 
 body {
-  background-color: #121212; /* AQUI você muda a cor do fundo */
-  color: white; /* cor do texto para combinar com fundo escuro */
-  font-family: Arial, sans-serif;
+  background-color: #121212; /* define a cor de fundo escura */
+  color: white; /* define cor padrão do texto */
+  font-family: Arial, sans-serif; /* fonte alternativa para textos */
 }
