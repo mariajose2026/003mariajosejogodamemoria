@@ -19,3 +19,12 @@ body {
   color: white; /* define cor padrão do texto */
   font-family: Arial, sans-serif; /* fonte alternativa para textos */
 }
+
+/* 👇 telas maiores que celular */
+@media (min-width: 768px) {
+
+  html, body {
+    overflow-y: auto; /* permite scroll vertical */
+  }
+
+}
